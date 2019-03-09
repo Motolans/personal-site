@@ -1,5 +1,6 @@
 import React from 'react';
 import DeployableTextBox from '../styles/DeployableTextBox';
+
 import Card from '../components/Card'
 import styled from 'styled-components';
 
@@ -16,9 +17,8 @@ const BioStyle = styled(DeployableTextBox)`
 `;
 
 const text = [
-    ["Mostly just tinkering around with code at the moment, but more to come.", "Code"],
-    ["This is my business body, it's strong and hard to sue.", "Game Design"],
-    ["This is my business spirit, it's a capitalism, like Jesus.", "About"],
+    ["I've been learning React. Pretty cool, huh?", "React"],
+
 ]
 
 

@@ -15,12 +15,12 @@ const fade = keyframes`
 
 
 const DeployableTextBox = styled.div`
-    display: flex;
+    display: grid;
     color: blue;
     margin: 100px auto;
-    border: 2px solid black;
     width: 80%;
     animation: ${fade} 0.75s linear 1;
+    padding: 5px;
 `;
 
 export default DeployableTextBox;
